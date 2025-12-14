@@ -1,5 +1,7 @@
 
-/**
+/** CHAPTER 11 PROJECT
+ * edited by Franco Acosta
+ * 
  * Abstract class Creature - 
  * The creature is the main class from which all other battling creatures derive.
  * It is the creature's job to maintain current health values in response to 
@@ -34,7 +36,9 @@ public abstract class Creature
     }
     
     
-    /**
+    /** EDITED FOR PROJECT
+     * edited by Franco Acosta
+     * 
      * Allows a creature to determine how much damage it is causing in this round of battle
      * @return a value between 1 and str to be used to cause damage to another creature
      */
@@ -44,7 +48,9 @@ public abstract class Creature
     }
     
     
-    /**
+    /** EDITED FOR PROJECT
+     * edited by Franco Acosta
+     * 
      * Is this creature still capable of fighting?
      * @return true when current hit point level is greater than zero
      */
@@ -53,7 +59,9 @@ public abstract class Creature
         return false; //change this
     }
     
-    /**
+    /** EDITED FOR PROJECT
+     * edited by Franco Acosta
+     * 
      * Is this creature knockedOut?
      * @return true when current hit point level is less than or equal to zero
      */

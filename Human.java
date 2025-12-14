@@ -1,6 +1,8 @@
 
 
-/**
+/** CHAPTER 11 PROJECT
+ * edited by Franco Acosta
+ * 
  * The Human class implements a wrapper for the base Creature class with the following additions
  * Implements a maximum/minimum strength for the creature type [20/5]
  * Implements a maximum/minimum hitpoint total for the creature type [25/5]
@@ -11,10 +13,10 @@
 public class Human extends Creature
 {
     // instance variables - replace the example below with your own
-    private static final int MAX_HUMAN_HP = 25;
-    private static final int MIN_HUMAN_HP = 5;
+    private static final int MAX_HUMAN_HP = 50;
+    private static final int MIN_HUMAN_HP = 10;
     private static final int MAX_HUMAN_STR = 20;
-    private static final int MIN_HUMAN_STR = 5;
+    private static final int MIN_HUMAN_STR = 10;
 
     /**
      * Constructor for objects of class Human -
